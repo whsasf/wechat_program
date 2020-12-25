@@ -1,0 +1,105 @@
+.navBox {
+        ::-webkit-scrollbar{
+            width: 0;
+            height: 0;
+            color: transparent;
+        }
+        z-index: 1;
+        background-color: #ffffff;
+        border-top: 1px solid rgba(221, 221, 221, 0.6);
+        border-bottom: 1px solid rgba(221, 221, 221, 0.6);
+        .nav-shadow-base{
+            position: fixed;
+            top: 20px;
+            right: 10px;
+            height: 50px;
+            width: 150px;
+            background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff);
+        }
+        .nav-shadow {
+            position: fixed;
+            top: 20px;
+            right: 0;
+            height: 45px;
+            width: 45px;
+            background: url(../../asset/images/burger.png) no-repeat; //linear-gradient(90deg, #ddd, white);
+            background-size:100% 100%;
+            //border-top-left-radius: 900px;
+            //border-bottom-left-radius: 900px;
+        }
+        .nav {
+            width: 100%;
+            background-color: #ffffff;
+            white-space: nowrap;
+            .item:last-child{
+                padding-right: 60px;
+            }
+            .item {
+                padding-left: 30px;
+                padding-right: 30px;
+                display: inline-block;
+                .item-content {
+                    padding-top: 20px;
+                    .item-text {
+                        box-sizing: border-box;
+                        font-size: 1.1rem;
+                        color: #241d1d;
+                        padding-bottom: 15px;
+                        
+                    }
+                    .item-active {
+                        color: #2A8CE5;
+                        font-size: 1.1rem;
+                        font-weight: 600;
+                        padding-bottom: 15px;
+                        border-bottom: 5px solid #2A8CE5;
+                    }
+                }
+            }
+        }
+
+        .expandNav{
+            background-color: #ffffff;
+            width: 100%;
+            z-index: 3;
+            position: fixed;
+            .top{
+                margin: 10px 30px;
+                font-size: 1.1rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .Cross:before{
+                    font-weight: 300;
+                    content: '\2716';
+                   
+                }
+                .Title{
+                    font-weight: 600;
+                    font-size: 1.1rem
+                }
+            }
+            .wrap{
+                border-top: 1px solid  rgba(238, 238, 238, 1);
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+                .navOne{
+                    font-size: 1rem;
+                    padding: 20px 15px;
+                    background-color:  rgba(221, 221, 221, 0.6);
+                    margin: 15px 15px;
+                    border-radius: 10px;
+                    .ttext{
+                        width: 130px;
+                        text-align: center;
+                    };
+                    .special{
+                        color: #2A8CE5;
+                        font-weight: 600;
+                    }
+                }
+            }
+        };
+    }

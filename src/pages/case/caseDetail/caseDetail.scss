@@ -1,0 +1,31 @@
+.container {
+    background-color: #ffffff;
+    font-size: 1rem;
+    padding-top: 44px;
+    padding-right: 30px;
+    padding-left: 30px;
+    .box {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 20px;
+        border: 2px solid  rgba(221, 221, 221, 0.9);
+        border-radius: 16px;
+        .item {
+            border-bottom: 2px solid #f2f2f2;
+            display: flex;
+            align-items: center;
+            .item-title {
+                width: 200px;
+                color: rgba(85, 85, 85, 1);
+                line-height: 96px;
+                font-weight: 500;
+            }
+            .subtitle {
+                color: rgba(36, 29, 29, 1);
+            }
+        }
+        .item-no-border {
+            border-bottom: 2px solid transparent;
+        }
+    }
+}

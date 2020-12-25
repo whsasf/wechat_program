@@ -1,0 +1,46 @@
+.Video-Card {
+    background-color: #ffffff;
+    margin: 0 30px;
+    padding: 32px 0;
+    box-sizing: border-box;
+    text-align: left;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.6);
+    .video-title {
+        text-align: left;
+        font-size: 1.1rem;
+        color: #222222
+    }
+    .mainPart{
+        margin-top:5px;
+        max-height: 400px;
+        text-align: center;
+        .playButton{
+            width: 100px;
+        }
+    }
+    .videoinfo{
+        display: flex;
+        margin-top: 5px;
+        font-size: 0.8rem;
+        color: #999999;
+        justify-content: space-between;
+        align-items: center;
+        .authorinfo{
+            display: flex;
+            align-items: center;
+            .author_avatar{
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+            };
+            .author_name{
+                margin-left: 20px;
+                width: 200px;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+                color: #222222;
+            }
+        }
+    }
+}

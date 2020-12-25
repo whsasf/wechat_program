@@ -1,0 +1,41 @@
+.sharex{
+    border-radius: 0;
+    border-top: 1px solid  rgba(238, 238, 238, 1);
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    background-color: #ffffff;
+    .p1{
+        flex:1;
+        margin: 0;
+        border: 0px !important;
+        border-radius: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .bg1{
+            background-image: url('../../asset/images/wc.png');
+            background-size: 100% 100%;
+            width: 40px;
+            height: 32px;
+            margin-right: 10px;
+        }
+    }
+    .p2{
+        flex: 1;
+        margin: 0;
+        border: 0px !important;
+        border-radius: 0 !important;
+        border-left:  1px solid rgba(238, 238, 238, 1) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .bg2{
+            background: url('../../asset/images/dbb.png');
+            background-size: 100% 100%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+    }
+}

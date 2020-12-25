@@ -1,0 +1,58 @@
+.appd {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5px 50px 50px 50px;
+    .headpic {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .hl {
+            height: 40px;
+            width: 140px;
+            background-image: url('../../asset/images/red-dbb.png');
+            background-size: 100% 100%;
+            background-repeat: 'no-repeat'
+        };
+        .hr {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color:  #ff5f2e;
+           
+        }
+       
+    }
+    .slogon{
+        margin-top: 20px;
+        border-top:1px solid rgba(221, 221, 221, 0.6);
+        padding: 80px 0px 30px 0px;
+        .h1{
+            font-weight: 800;
+            font-size: 1.7rem;
+        }
+        .p1{
+            padding-top: 50px;
+            font-size: 1.2rem
+        }
+    }
+    .copy{
+        margin-top: 80px;
+        .copyword{
+            font-size: 1rem;
+        }
+        .w2{
+            margin-top: 60px;
+            height: 300px;
+            width: 300px;
+            background-image: url('../../asset/images/code-ios.png');
+            background-size: 100% 100%;
+            background-repeat: 'no-repeat'  
+        }
+        .btn{
+            margin-bottom: 30px;
+            font-size: 1.2rem;
+            background-color: #ff5f2e;
+            color:#ffffff;
+            width: 250px;
+        }
+    }
+}
